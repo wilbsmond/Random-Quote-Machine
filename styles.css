@@ -1,0 +1,40 @@
+#body {
+  background-color: #333;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quote-box {
+  font-family: 'San Francisco', 'Noto Sans', 'Segoe UI', sans-serif;
+  border-radius: 5px;
+  position: relative;
+  background-color: lightgrey;
+  padding: 40px;
+  width: 500px;
+}
+
+.quote-text {
+  text-align: center;
+  font-size: 30px;
+  opacity: 1;
+}
+
+.quote-author {
+  text-align: right;
+  margin: 20px 0px;
+  opacity: 1;
+}
+
+#tweet-quote {
+  height: 30px;
+  width: 40px;
+  background-color: white;
+}
+
+#new-quote {
+  float: right;
+}
